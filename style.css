@@ -16,6 +16,8 @@ img{
     padding-right: 200px;
 }
 
+
+
 .header{
     display:flex;
     justify-content: space-between;
@@ -40,20 +42,29 @@ img{
     color: #E5e7eb;
 }
 
+
 .body1-content{
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
+
 }
 
 .body1-main-text, .white{
     font-size: 48px;
+    padding-bottom: 16px;
 }
 
 .body1-subtext .offwhite{
    
     font-size: 18px;
+    padding-bottom: 16px;
+}
+
+.body1-button{
+    background-color: #3882f6;
+    margin-top: 16px;
 }
 
 .body1-img{
@@ -66,6 +77,8 @@ img{
     padding-left: 200px;
     padding-right: 200px;
 }
+
+
 
 .body2-content{
     display: flex;
@@ -110,4 +123,73 @@ img{
     align-items: center;
    
     gap: 25px;
+}
+
+.body3{
+    background-color: #e5e7eb;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.body3-quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap:32px
+}
+
+.body3-quote .bigquote{
+    font-size: 54px;
+    color: #1f2937;
+ 
+}
+
+.body3-quote .signature{
+    font-size: 28px;
+    color: #1f2937;
+    font-weight: 500;
+    align-self: flex-end;
+} 
+
+
+.body4{
+    background-color: whitesmoke;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.body4-card{
+    background-color: #3882f6;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body4-card-content .card-text1{
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+.body4-card-content .card-text2{
+    color: #f9faf8;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.footer-text{
+    text-align: center;
+    color: #f9faf8;
+    font-size: 16px;
 }
